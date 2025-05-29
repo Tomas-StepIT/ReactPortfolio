@@ -27,25 +27,25 @@ of what each of the values mean.
  */
 
 export const info = {
-    firstName: "John",
-    lastName: "Smith",
-    initials: "js", // the example uses first and last, but feel free to use three or more if you like.
-    position: "a Full Stack Developer",
+    firstName: "Tomas",
+    lastName: "Janda",
+    initials: "Tom", // the example uses first and last, but feel free to use three or more if you like.
+    position: "a Full Stack Student",
     selfPortrait: self, // don't change this unless you want to name your self-portrait in the "img" folder something else!
     gradient: `-webkit-linear-gradient(135deg, ${colors})`, // don't change this either
     baseColor: colors[0],
     miniBio: [ // these are just some "tidbits" about yourself. You can look at mine https://paytonjewell.github.io/#/ for an example if you'd like
         {
-            emoji: '☕',
-            text: 'fueled by coffee'
+            emoji: '🌊',
+            text: 'fueled by water'
         },
         {
             emoji: '🌎',
-            text: 'based in the US'
+            text: 'based in the Czech Rep.'
         },
         {
             emoji: "💼",
-            text: "Systems Engineer at Google"
+            text: "Systems Engineer at my Home"
         },
         {
             emoji: "📧",
@@ -82,38 +82,38 @@ export const info = {
 // Just change the links so that they lead to your social profiles.
 
     ],
-    bio: "Hello! I'm John. I'm a systems engineer for Google. I studied CompSci at Harvard, I enjoy long walks on the beach, and I believe artificial intelligence will inevitably rule us all one day. You should hire me!",
+    bio: "Hello! I'm Tomas. I'm a systems engineer for Me. I'm studying CS, I enjoy riding bikes, and I believe artificial intelligence will inevitably rule us all one day. You should hire me!",
     skills:
         {
-            proficientWith: ['javascript', 'react', 'git', 'github', 'bootstrap', 'html5', 'css3', 'figma'],
-            exposedTo: ['nodejs', 'python', 'adobe illustrator']
+            proficientWith: ['javascript', 'python', 'bootstrap', 'html5'],
+            exposedTo: ['nodejs', 'git', 'css3', 'react', 'github', 'c++']
         }
     ,
     hobbies: [
         {
-            label: 'reading',
-            emoji: '📖'
+            label: 'computers',
+            emoji: '🖥️'
         },
         {
-            label: 'theater',
-            emoji: '🎭'
+            label: 'nature',
+            emoji: '🌳'
         },
         {
             label: 'movies',
             emoji: '🎥'
         },
         {
-            label: 'cooking',
-            emoji: '🌶'
+            label: 'biking',
+            emoji: '🚲'
         }
 // Same as above, change the emojis to match / relate to your hobbies or interests.
 // You can also remove the emojis if you'd like, I just think they look cute :P
     ],
     portfolio: [ // This is where your portfolio projects will be detailed
         {
-            title: "Project 1",
-            live: "https://paytonpierce.dev", //this should be a link to the live version of your project, think github pages, netlify, heroku, etc. Or your own domain, if you have it.
-            source: "https://github.com/paytonjewell", // this should be a link to the **repository** of the project, where the code is hosted.
+            title: "Discord",
+            live: "https://github.com/Tomas0514/Discord", //this should be a link to the live version of your project, think github pages, netlify, heroku, etc. Or your own domain, if you have it.
+            source: "https://github.com/Tomas0514/Discord", // this should be a link to the **repository** of the project, where the code is hosted.
             image: mock1
         },
         {
