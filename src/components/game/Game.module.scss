@@ -1,0 +1,49 @@
+.container {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  background-color: #237a57;
+  overflow: hidden;
+  font-family: sans-serif;
+}
+
+.track {
+  position: absolute;
+  height: 100%;
+  background-color: #2e2e2e;
+}
+
+.car {
+  position: absolute;
+  background-color: #ff4444;
+  border-radius: 5px;
+}
+
+.obstacle {
+  position: absolute;
+  background-color: #000;
+  border-radius: 3px;
+}
+
+.score {
+  position: absolute;
+  top: 10px;
+  left: 20px;
+  font-size: 1.2rem;
+  color: white;
+  font-weight: bold;
+}
+
+.gameOver {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 2rem;
+  font-weight: bold;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 20px 40px;
+  border-radius: 10px;
+  text-align: center;
+}
